@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+
+
+    <title>Quiz</title>
+</head>
+<body>
+<div class="start">Start The Quiz</div>
+ <div class="main">
+               <div class="er"><h2> Q1. What are fossil fuels.?</h2></div>
+               <div class="ques1">
+                <input type="radio" name="q1">Basic Material<br>
+                <input type="radio" name="q1" id="r1">Organic Material<br>
+                <input type="radio" name="q1">Inorganic Material<br>
+                <input type="radio" name="q1">Unprocessed Material</div>
+                
+               <h2> Q2. Which fossil fuel is more efficient.?</h2>
+               <div class="ques2">
+                <input type="radio" name="q2">Gas<br>
+                <input type="radio" name="q2" id="r2">Coal<br>
+                <input type="radio" name="q2">Oil<br>
+                <input type="radio" name="q2">Wood</div>
+               <h2>  Q3. Fossil fuels are rich in carbon and ?</h2>
+               <div class="ques3"> 
+                <input type="radio" name="q3">Oxygen<br>
+                <input type="radio" name="q3" id="r3">Hydrogen <br>
+                <input type="radio" name="q3">Nitrogen<br>
+                <input type="radio" name="q3">Amonia</div>
+
+                <h2> Q4. Fossil fuels are rich in carbon and.?</h2>
+               <div class="ques4">
+                <input type="radio" name="q4">Oxygen<br>
+                <input type="radio" name="q4" id="r4">Hydrogen <br>
+                <input type="radio" name="q4">Nitrogen<br>
+                <input type="radio" name="q4">Amonia</div>
+                <h2> Q5. Fossil fuels are important source of Energy for ?</h2>
+               <div class="ques5"> 
+                <input type="radio" name="q5">Transportation<br>
+                <input type="radio" name="q5">Home <br>
+                <input type="radio" name="q5">Industries<br>
+                <input type="radio" name="q5" id="r5">All of them</div>
+                <h2> Q6. Burning of fossil fuels is leading environment towards ?</h2>
+              <div class="ques6"> 
+               <input type="radio" name="q6">Pollution<br>
+                <input type="radio" name="q6">Global Warming <br>
+                <input type="radio" name="q6"id="r6">Climate Change<br>
+                <input type="radio" name="q6">All of the above</div>
+                <h2> Q7. How many types of fossil fuels are present.?</h2>
+               <div class="ques7"> 
+                <input type="radio" name="q7">2 types<br>
+                <input type="radio" name="q7">5 types<br> 
+                <input type="radio" name="q7"id="r7">3 types<br>
+                <input type="radio" name="q7">6 types</div>
+                <h2> Q8. Due to constant heat and pressure ,buried plants turn into ?</h2>
+              <div class="ques8">
+                <input type="radio" name="q8">Wood <br>
+                <input type="radio" name="q8" id="r8">Coal <br>
+                <input type="radio" name="q8">Fertilizer<br>
+                <input type="radio" name="q8">oil</div>
+                <h2> Q9. Fossil fuels are rich in carbon and.?</h2>
+               <div class="ques9">
+                <input type="radio" name="q9">Oxygen<br>
+                <input type="radio" name="q9" id="r9">Hydrogen<br> 
+                <input type="radio" name="q9">Nitrogen<br>
+                <input type="radio" name="q9">Amonia   </div>            
+                <h2> Q10. Natural gas is made of____ which is made of carbon and hydrogen atoms ?</h2>
+               <div class="ques10"> 
+                <input type="radio" name="q10">wood<br>
+                <input type="radio" name="q10" id="r10">Methane<br>
+                <input type="radio" name="q10">Nitrogen<br>
+                <input type="radio" name="q10">Coal<br></div>
+                <div class="btn"><button onclick="result()"><p>Submit</p></button>
+                    <button><a href="pbl1.html"><p>Go Back</p></a></button></div>
+    </div>
+
+<style>body{
+    background-image: url("C:/Users/ABHISHEK SHARMA/Downloads/2.jpeg");
+    background-color: lightgoldenrodyellow;
+    background-position: center;
+    background-size: cover;
+ 
+}
+.main{
+    height: 2000px;
+    width: 650px;
+    background-image: ;
+    background: linear-gradient(to top, rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%);
+    margin-left: 380px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.start{
+    height: 40px;
+    width: 650px;
+    background-color: orange;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size:  24px;
+    margin-left: 380px;
+    font-weight: bold;
+
+    
+}
+.ques1,.ques2,.ques3,.ques4,.ques5,.ques6,.ques7,.ques8,.ques9,.ques10{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 15px;
+    height: 15vh;
+    width: 590px;
+    background-color: lightblue;
+    opacity: 0.5;
+    margin-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: ;
+}
+h2{
+    background-color: orange;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin: 20px 10px;
+}
+button{
+    margin: 10px 250px;
+    height: 50px;
+    width: 180px;
+    background-color: orange;
+    border-radius: 15px;
+    padding-bottom: ;
+    font-weight: bold;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.er h2{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+</style>
+ <script>
+        function result(){
+            var score=0;
+            if(document.getElementById('r1').checked)
+            {
+                score++;
+            }
+            if(document.getElementById('r2').checked)
+            {
+                score++;
+            }
+            if(document.getElementById('r3').checked)
+            {
+                score++;
+            }
+            if(document.getElementById('r4').checked)
+            {
+                score++;
+            }
+            if(document.getElementById('r5').checked)
+            {
+                score++;
+            }
+            if(document.getElementById('r6').checked)
+            {
+                score++;
+            }
+            if(document.getElementById('r7').checked)
+            {
+                score++;
+            }
+            if(document.getElementById('r8').checked)
+            {
+                score++;
+            }
+            if(document.getElementById('r9').checked)
+            {
+                score++;
+            }
+            if(document.getElementById('r10').checked)
+            {
+                score++;
+            }
+        alert("Your Score is :"+score);
+    }
+    </script>
+</body>
+</html>
